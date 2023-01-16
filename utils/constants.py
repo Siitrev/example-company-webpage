@@ -1,6 +1,10 @@
+"""Prepares constants to use for smtplib"""
+
 import environ
 import os
 from os.path import join, dirname, abspath
+
+
 env = environ.Env()
 
 env.read_env(env.str(

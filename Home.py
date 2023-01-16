@@ -15,6 +15,8 @@ st.write(content)
 
 st.subheader("Our team")
 
+# Creates layout and populates it with appropriate data
+
 for i in range(0,df.shape[0],3):
     col1,col2,col3,col4,col5 = st.columns([1.5,0.5,1.5,0.5,1.5])
     
