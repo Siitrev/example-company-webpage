@@ -11,3 +11,6 @@ with st.form("Contact"):
     topic = st.selectbox("What topic do you want to discuss?",options=df)
     text = st.text_area("Text")
     send = st.form_submit_button("Send")
+    
+if send:
+    pass
